@@ -1,0 +1,313 @@
+body{
+    background: url(images/background-.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* Шапка сайта,главная */
+
+
+
+
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.nav_panel{
+    width: 100%;
+    height: 102px;
+    background-color: rgba(150, 150, 150, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+  margin-top: 21px;
+}
+
+.mwnu{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px;
+}
+
+.mwnu ul{
+    list-style-type: none;
+}
+
+.mwnu li{
+    display: inline-block;
+    padding-right: 48px;
+}
+
+.mwnu li:last-child{
+    padding-right: 0;
+}
+
+.mwnu a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.icon_burger{
+    width: 20px;
+    height: 5px;
+    background-color: #ffa700;
+    position: absolute;
+    top: 7px;
+    right: 0;
+    display: none;
+    z-index: 5;
+}
+
+.icon_burger:before{
+    content:"";
+    display: block;
+    width: 20px;
+    height: 5px;
+    background-color: #ffa700;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.icon_burger:after{
+    content:"";
+    display: block;
+    width: 20px;
+    height: 5px;
+    background-color: #ffa700;
+    position: absolute;
+    top: 17px;
+    right: 0;
+}
+
+.mwnu_mobile{
+    width: 120px;
+    height: 110px;
+    background-color: #6f00ff;
+    position: absolute;
+    right: 0;
+    display: none;
+    margin-top: -195px; 
+    transition: all ease 10s;  
+}
+
+.mwnu_mobile ul{
+    list-style-type: none;
+}
+
+.mwnu_mobile a{
+    font-size: 16px;
+    line-height: 25px;
+    position: relative;
+    right: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.aitem{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    margin-left: 40%; 
+}
+
+.aitem span{
+    color: #ea00ff;
+    margin-left: 22.1%;
+}
+
+.stars{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_star{
+    width: 50px;
+    height: 50px;
+    background-image: url(icons/white-star.png);
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-left: 3px;
+    transition-duration: 1000ms;
+    position: absolute;
+}
+
+.left_star:hover{
+    width: 100px;
+    height: 100px;
+    background-image: url(icons/star-icon.png);
+    background-repeat: no-repeat;
+}
+
+.right_star{
+    width: 50px;
+    height: 50px;
+    background-image: url(icons/white-star.png);
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-left: 3px;
+    transition-duration: 1000ms;
+}
+
+.right_star:hover{
+    width: 100px;
+    height: 100px;
+    background-image: url(icons/star-icon.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* Основное содержание сайта,главная */
+
+
+
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.our_cinema,
+.our_library{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.series_voice{
+    width: 300px;
+    height: 281px;
+    background: url(images/series_voice.jpg) no-repeat;
+    background-size: contain;
+}
+
+.series_kiss_cobra{
+    width: 300px;
+    height: 281px;
+    background: url(images/series_kiss_cobra.jpg) no-repeat;
+    background-size: contain;
+}
+
+.series_love_who-changed_the_world{
+    width: 300px;
+    height: 281px;
+    background: url(images/series_love_who-changed_the_world.jpg) no-repeat;
+    background-size: contain;
+}
+
+.manga_deramin_in_the_the-sky{
+    width: 300px;
+    height: 281px;
+    background: url(images/manga_deramin_in_the_the-sky.jpg) no-repeat;
+    background-size: contain;
+}
+
+.manga_tomorrow{
+    width: 300px;
+    height: 281px;
+    background: url(images/manga_tomorrow.jpg) no-repeat;
+    background-size: contain;
+}
+
+.manga_on_dragon{
+    width: 300px;
+    height: 281px;
+    background: url(images/manga_on_dragon.jpg) no-repeat;
+    background-size: contain;
+}
+
+.rgba{
+    width: 300px;
+    height: 281px;
+    background-color: rgba(136, 4, 238, 0.7);
+    transition-duration: 1000ms;
+    opacity: 0;
+}
+
+.rgba h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #ffa700;
+    text-transform: uppercase;
+    text-align: center;
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 50%;
+}
+
+.rgba:hover{
+    opacity: 1;
+}
+
+.link_serial:hover{
+    text-decoration: none;
+}
+
+.link_serial:active{
+    text-decoration: none;
+}
+
+.manga_link:hover{
+    text-decoration: none;
+}
+
+.manga_link:active{
+    text-decoration: none;
+}
+
+
+
+
+/* Подвал сайта,главная */
+
+
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.vk{
+    width: 50px;
+    height: 50px;
+    background: url(icons/icon_vk.png) no-repeat;
+    background-size: contain;
+}
+
+.youtube{
+    width: 50px;
+    height: 50px;
+    background: url(icons/icon_youtube.png) no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+}

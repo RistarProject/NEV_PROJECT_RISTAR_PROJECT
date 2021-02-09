@@ -1,0 +1,196 @@
+ /* Ноутбук */
+ 
+ @media screen and (max-width:1200px){
+
+
+
+
+
+/* Шапка сайта,главная */
+
+
+
+
+    .container{
+        max-width: 85%;
+    }
+
+
+
+
+/* Основное содержание сайта,главная */
+
+
+
+
+
+    .series_love_who-changed_the_world{
+        margin-top: 40px;
+    }
+
+    .manga_on_dragon{
+        margin-top: 40px;
+    }
+ }
+
+
+ /* Планшет */
+ 
+ @media screen and (max-width:900px){
+
+
+
+
+
+/* Шапка сайта,главная */
+
+
+
+
+.container{
+    max-width: 97%;
+}
+
+.mwnu li{
+    padding-right: 30px;
+}
+
+.mwnu a{
+    font-size: 18px;
+}
+
+.aitem{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+
+
+
+
+/* Основное содержание сайта,главная */
+
+
+
+
+
+
+h2{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.rgba{
+    width: 270px;
+    height: 253px;
+}
+
+.our_cinema,
+.our_library{
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+
+.series_voice{
+    width: 270px;
+}
+
+.series_kiss_cobra{
+    width: 270px;
+}
+
+.series_love_who-changed_the_world{
+    width: 270px;
+    margin: 0;
+}
+
+.manga_deramin_in_the_the-sky{
+    width: 270px;
+}
+
+.manga_tomorrow{
+    width: 270px;
+}
+
+.manga_on_dragon{
+    width: 270px;
+    margin: 0;
+}
+
+
+
+
+/* Подвал сайта,главная */
+
+
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ }
+
+
+ @media screen and (max-width:600px){
+     
+
+
+
+
+/* Шапка сайта,главная */
+
+
+
+
+.container{
+    max-width: 100%;
+}
+
+.icon_burger{
+    display: block;
+}
+
+.mwnu_mobile{
+    display: block;
+    height: 100%;
+    transition: 1000ms
+}
+
+.menu_active{
+    margin-top: -60px;
+}
+
+.mwnu{
+    display: none;
+}
+
+
+
+
+
+/* Основоное содержание,главная */
+
+
+
+
+.left_star,.right_star{
+    display: none;
+}
+
+.aitem{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+ }
